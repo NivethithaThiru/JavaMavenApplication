@@ -17,7 +17,7 @@ public class AppTest
             String actual_message = AppTest.displayMessage();
             assertEquals("Hello Nivethitha!", actual_message);
         } catch (AssertionError e) {
-            fail("\"message\" is not \"Hello World!\"");
+            fail("\"message\" is not \"Hello Nivethitha!\"");
         }
     }
 
